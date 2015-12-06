@@ -2,6 +2,7 @@
 
 html,
 body {
+  font-family: 'Microsoft YaHei', 微软雅黑, "Lato",  sans-serif;
   height: 100%;
   font-size: 15px;
 }
