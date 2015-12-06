@@ -6,8 +6,8 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="{{ SITENAME }}">
     <meta name="author" content="{{ AUTHOR }}">
-    {% if FAVICON and FAVICON_TYPE %}
-    <link rel="icon" type="image/{{ FAVICON_TYPE }}" href="{{ genurl( FAVICON ) }}">
+    {% if FAVICON %}
+    <link rel="shortcut icon" href="{{ genurl( FAVICON ) }}">
     {% endif %}
 
     {% from 'macro.html' import pagetitle with context %}
