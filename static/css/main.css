@@ -7,6 +7,7 @@ body {
   font-size: 15px;
 }
 
+
 .footnote {
   font-size: 13px;
 }
@@ -159,19 +160,37 @@ body {
   padding: 0;
 }
 
-h1 {font-size: 1.8em;}
-h2 {font-size: 1.5em;}
-h3 {font-size: 1.3em;}
-h4 {font-size: 1.2em;}
-h5 {font-size: 1.1em;}
-h6 {font-size: 1.0em;}
+h1 {
+  font-size: 1.95em;
+  font-weight: 600;
+}
+h2 {
+  font-size: 1.75em;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 600;
+}
+h5 {
+  font-size: 1.25em;
+  font-weight: 600;
+}
+h6 {
+  font-size: 1.25em;
+  font-weight: 600;
+}
 
-#home_article_list h1 {font-size: 1.6em}
+/*#home_article_list h1 {font-size: 1.6em}
 #home_article_list h2 {font-size: 1.4em}
 #home_article_list h3 {font-size: 1.2em}
 #home_article_list h4 {font-size: 1.1em}
 #home_article_list h5 {font-size: 1.0em}
-#home_article_list h6 {font-size: 1.0em}
+#home_article_list h6 {font-size: 1.0em}*/
 
 #article_info {
   font-size: 1.0em;
