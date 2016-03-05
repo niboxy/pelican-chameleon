@@ -2,6 +2,12 @@
 {% from 'macro.html' import genurl with context %}
 <html lang="{{ DEFAULT_LANG }}">
 <head>
+
+    {% if article_keyword %}
+        <meta name="keywords" content="{{ article_keyword }}">
+    {% elif KEYWORDS %}
+        <meta name="keywords" content="{{ KEYWORDS }}">
+    {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="{{ SITENAME }}">

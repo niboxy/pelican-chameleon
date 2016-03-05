@@ -1,5 +1,8 @@
 {% set name = article.title %}
 {% set link = article.url %}
+{% if article.tags %}
+  {% set article_keyword = article.tags|join(',') %}
+{% endif %}
 {% extends "base.html" %}
 
 {% block left_sidebar %}
