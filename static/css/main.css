@@ -5,6 +5,7 @@ body {
   font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   height: 100%;
   font-size: 15px;
+  text-shadow: 1px 1px 3px rgba(50,50,50,0.15);
 }
 
 
